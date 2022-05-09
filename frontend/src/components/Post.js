@@ -105,12 +105,12 @@ function Post({post}) {
   }
   </div>
   <div className='post__footer'>
-  <div className='post__footerAction'>
+  {/* <div className='post__footerAction'>
         <ArrowUpwardOutlined />
         <ArrowDownwardOutlined/>
-      </div>
-      <RepeatOneOutlined />
-      <ChatBubbleOutlined />
+      </div> */}
+      {/* <RepeatOneOutlined />
+      <ChatBubbleOutlined /> */}
       <div className='post__footerLeft'>
           <ShareOutlined/>
           <DeleteOutlined />  

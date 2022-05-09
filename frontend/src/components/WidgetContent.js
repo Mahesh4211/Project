@@ -5,8 +5,8 @@ function WidgetContent() {
       <div className='widget__content'>
           <img src='https://qphs.fs.quoracdn.net/main-thumb-ti-1737435-100-jxcfmjdvwvpkcketifttdmeeimxcatua.jpeg' alt=''/>
           <div className='widget__contentTitle'>
-              <h5>Mobile App Programmer</h5>
-              <p>The Best Mobile App Development Company</p>
+              <h5>Sudhir kadam</h5>
+              <h5>Mahesh ankamwar</h5>
           </div>
       </div>
   </div>

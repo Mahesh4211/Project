@@ -10,7 +10,7 @@
   }
   
   .sidebarOption:hover {
-    background: rgb(211, 211, 211);
+    background: rgb(153, 106, 106);
     border-radius: 5px;
   }
   .sidebarOption > img {
@@ -25,14 +25,14 @@
   }
   .sidebarOption > p {
     margin-left: 10px;
-    color: gray;
+    color: rgb(15, 3, 3);
     font-weight: 400;
     font-size: 13px;
   }
   
   .sidebarOption > .text {
     margin-left: 23px;
-    color: gray;
+    color: rgba(11, 0, 0, 0.116);
     font-weight: 400;
-    font-size: 13px;
+    font-size: 25px;
   }

@@ -10,7 +10,7 @@ function QuoraBox() {
           <Avatar src={user?.photo}/>
           </div>
           <div className='quoraBox__quora'>
-              <h5>What is your question or link?</h5>
+              <h2>Post your questions and answers here</h2>
               </div>
      </div>;
 }

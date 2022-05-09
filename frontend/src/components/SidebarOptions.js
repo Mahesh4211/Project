@@ -7,7 +7,7 @@ function SidebarOptions() {
       <div className="sidebarOptions">
         <div className="sidebarOption">
           <img
-            src="https://qphs.fs.quoracdn.net/main-thumb-t-930-100-cbbsbwijdhpyzlpipejvqpiijhhoaday.jpeg"
+            src="https://48b6yd3iigex2rv7g41h5sts-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/Historical-Fiction-scaled.jpg"
             alt=""
           />
           <p>History</p>
@@ -15,39 +15,39 @@ function SidebarOptions() {
   
         <div className="sidebarOption">
           <img
-            src="https://qphs.fs.quoracdn.net/main-thumb-t-858-100-VnZbEVtOIGkEHXlnYId9slumV59IPgkA.jpeg"
+            src="https://www.businessenglishpod.com/wordpress/wp-content/uploads/Business-English-Pod-Learn-Business-English.jpg"
             alt=""
           />
   
           <p>Business</p>
         </div>
-        <div className="sidebarOption">
+        {/* <div className="sidebarOption">
           <img
             src="https://qphs.fs.quoracdn.net/main-thumb-t-1913-100-B8JrwaVauFzsaTSqXDqoWLCXzQb2mTE9.jpeg"
             alt=""
           />
           <p>Psychology</p>
-        </div>
+        </div> */}
   
-        <div className="sidebarOption">
+        {/* <div className="sidebarOption">
           <img
             src="https://qphs.fs.quoracdn.net/main-thumb-t-877-100-e7jKHEQr0HExAIA9rlsyHlV6HJyRruEo.jpeg"
             alt=""
           />
           <p>Cooking</p>
-        </div>
+        </div> */}
   
         <div className="sidebarOption">
           <img
-            src="https://qphs.fs.quoracdn.net/main-thumb-t-801-100-Sf8h894FXbQZQit0TeqDrrqS6xw6dwCQ.jpeg"
+            src="https://www.spmrf.org/wp-content/uploads/2019/03/Diwakar-Jhurani.jpg"
             alt=""
           />
-          <p>Music</p>
+          <p>Jobs</p>
         </div>
   
         <div className="sidebarOption">
           <img
-            src="https://qphs.fs.quoracdn.net/main-thumb-t-931-100-c8WCPwZ9qPsh5zLGQ5wHh1ddxtc9Cch7.jpeg"
+            src="https://assets.weforum.org/community/image/3v8PB95CCSn86e5fowthRAybW4ajSY18z2FfVPi2spk.jpeg"
             alt=""
           />
           <p>Science</p>
@@ -55,7 +55,7 @@ function SidebarOptions() {
   
         <div className="sidebarOption">
           <img
-            src="https://qphs.fs.quoracdn.net/main-thumb-t-1140-100-24q3tiv4WhPssc5TGwf0mvCM5aiqGVXW.jpeg"
+            src="http://prod-upp-image-read.ft.com/4bddfb6e-fa84-11e6-9516-2d969e0d3b65"
             alt=""
           />
           <p>Health</p>
@@ -63,15 +63,15 @@ function SidebarOptions() {
   
         <div className="sidebarOption">
           <img
-            src="https://qphs.fs.quoracdn.net/main-thumb-t-843-100-W7FzODceTO2aQmp8D7E4rKZ8YgSv21eR.jpeg"
+            src="https://assets.thehansindia.com/h-upload/2020/08/28/1600x960_994807-it-sector.jpg"
             alt=""
           />
-          <p>Movies</p>
+          <p>IT industry</p>
         </div>
   
         <div className="sidebarOption">
           <img
-            src="https://qphs.fs.quoracdn.net/main-thumb-t-2177-100-JiR07D1TQSfeQzRvWXomVaY4Poj2f8Yb.jpeg"
+            src="https://imageio.forbes.com/specials-images/imageserve/5ef3f7eec4f2390006f0c356/GUI--Graphical-User-Interface--concept-/960x0.jpg?fit=bounds&format=jpg&width=960"
             alt=""
           />
           <p>Technology</p>
@@ -79,15 +79,15 @@ function SidebarOptions() {
   
         <div className="sidebarOption">
           <img
-            src="https://qphs.fs.quoracdn.net/main-thumb-t-996-100-bfZBQjeEenKKl8fcNY4tVv0FyArtB0Mb.jpeg"
+            src="https://thevideoink.com/wp-content/uploads/2019/08/systemic-evaluation.jpg"
             alt=""
           />
           <p>Education</p>
         </div>
-        <div className="sidebarOption">
+        {/* <div className="sidebarOption">
           <Add />
           <p className="text">Discover Spaces</p>
-        </div>
+        </div> */}
       </div>
     );
   }

@@ -10,13 +10,17 @@ function Login(){
            console.log(error)
        });
     }
-    return <div className="login-container">
+   
+    return <div className="page">
+        <div className="login-container">
         <div className="login-content">
             <img src="https://video-public.canva.com/VAD8lt3jPyI/v/ec7205f25c.gif" alt="logo"/>
             <button onClick={handleSubmit} className="btn-login">Login to continue</button>
-            <div>Welcome to Quora-clone</div>
+            <div>Welcome to Quora-clone web application</div>
         </div>
     </div>
+    </div>
+   
     
 }
 

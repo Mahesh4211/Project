@@ -12,7 +12,7 @@ import {
   PeopleAltOutlined,
   Search,
   ExpandMore,
-  PeopleOutlined,
+  // PeopleOutlined,
   // Close,
 } from "@material-ui/icons";
 import CloseIcon from "@material-ui/icons/Close";
@@ -80,15 +80,15 @@ function QuoraHeader() {
            <div  className='qHeader__icons'>
              <HomeIcon/>
              </div>
-             <div className='qHeader__icons'><FeaturedPlayListOutlinedIcon/></div>
+             {/* <div className='qHeader__icons'><FeaturedPlayListOutlinedIcon/></div>
              <div className='qHeader__icons'><AssignmentTurnedInOutlined/></div>
              <div className='qHeader__icons'><PeopleAltOutlined/></div>
-             <div className='qHeader__icons'><NotificationsOutlined/></div>
+             <div className='qHeader__icons'><NotificationsOutlined/></div> */}
          </div>
-         <div className='qHeader__input'>
+         {/* <div className='qHeader__input'>
            <Search/>
            <input  type="text" placeholder='search questions'/>
-           </div>
+           </div> */}
            <div className='qHeader__Rem'>
              <span onClick={handleLogout}><Avatar src={user?.photo} /></span>
            <Button onClick ={() => setIsModalOpen( true )}>Add Question</Button>

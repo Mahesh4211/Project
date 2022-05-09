@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import "./css/Post.css"
 import { Avatar } from '@material-ui/core';
-import { ArrowDownwardOutlined, ArrowUpward, ArrowUpwardOutlined, ChatBubbleOutlined, MoreHorizOutlined, RepeatOneOutlined, ShareOutlined } from '@material-ui/icons';
+import { ArrowDownwardOutlined, ArrowUpward, ArrowUpwardOutlined, ChatBubbleOutlined, DeleteOutlined, MoreHorizOutlined, RepeatOneOutlined, ShareOutlined } from '@material-ui/icons';
 import {Modal} from 'react-responsive-modal';
 import "react-responsive-modal/styles.css";
 import CloseIcon from "@material-ui/icons/Close";
@@ -97,6 +97,7 @@ function Post({post}) {
         Add Answer
         </button>
      </div>
+     
     </Modal>
   </div>
   {
@@ -112,7 +113,7 @@ function Post({post}) {
       <ChatBubbleOutlined />
       <div className='post__footerLeft'>
           <ShareOutlined/>
-          <MoreHorizOutlined />  
+          <DeleteOutlined />  
   </div>
   </div>
     <p style={{
